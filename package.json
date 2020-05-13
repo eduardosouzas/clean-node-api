@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "project for student linguage nodejs",
   "main": "index.js",
-  "author": "eai.devs-at-197298744561 <eduardo.silva.ext@ipiranga.ipiranga>",
-  "license": "MIT"
+  "author": "Edu Souza",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "git-commit-msg-linter": "^2.4.2",
+    "typescript": "^3.9.2"
+  }
 }
