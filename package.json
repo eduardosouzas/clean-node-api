@@ -6,7 +6,8 @@
   "author": "Edu Souza",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest"
   },
   "devDependencies": {
     "@types/jest": "^25.2.2",
