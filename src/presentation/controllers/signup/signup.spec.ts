@@ -199,7 +199,7 @@ describe('SignUp Controller', () => {
     expect(httpResponse.body).toEqual(new ServerError())
   })
 
-  test('should return 400 if valid data is valid ', () => {
+  test('should return 200 if valid data is valid ', () => {
     const { sut } = makeSut()
     const httpRequest = {
       body: {
